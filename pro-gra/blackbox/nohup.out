@@ -1,0 +1,8 @@
+ts=2022-11-26T16:42:55.569Z caller=main.go:256 level=info msg="Starting blackbox_exporter" version="(version=0.22.0, branch=HEAD, revision=0bbd65d1264722f7afb87a72ec4128b9214e5840)"
+ts=2022-11-26T16:42:55.569Z caller=main.go:257 level=info build_context="(go=go1.18.5, user=root@4d81de342d10, date=20220802-13:56:00)"
+ts=2022-11-26T16:42:55.569Z caller=config.go:138 level=warn msg="no_follow_redirects is deprecated and will be removed in the next release. It is replaced by follow_redirects." module=http_2xx
+ts=2022-11-26T16:42:55.569Z caller=main.go:269 level=info msg="Loaded config file"
+ts=2022-11-26T16:42:55.569Z caller=main.go:417 level=info msg="Listening on address" address=:9115
+ts=2022-11-26T16:42:55.570Z caller=tls_config.go:195 level=info msg="TLS is disabled." http2=false
+ts=2022-11-26T16:47:51.622Z caller=config.go:138 level=warn msg="no_follow_redirects is deprecated and will be removed in the next release. It is replaced by follow_redirects." module=http_2xx
+ts=2022-11-26T16:47:51.622Z caller=main.go:304 level=info msg="Reloaded config file"
