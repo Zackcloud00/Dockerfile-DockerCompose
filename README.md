@@ -1,5 +1,3 @@
 Docker compose file for:
-Nexus
-Sonarqube
-Postgres
-Jenkin 
+- CI/CD: Jenkins + Nexus + Sonarqube + Postgress
+- Prometheus + Grafana 
