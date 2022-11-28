@@ -16,6 +16,10 @@ scrape_configs:
       - targets: ['192.168.2.199:9100']
         labels:
           instance: 'Desktop'
+      - targets: ['192.168.2.200:9100']
+        labels:
+          instance: 'Laptop'
+
 
   - job_name: 'docker'
     static_configs:
